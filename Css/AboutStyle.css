@@ -1,0 +1,69 @@
+*{
+	font-family: tahoma;
+	color: azure;
+	border-radius: 20%;
+}
+
+body{
+	
+	margin:0;
+	padding:0;
+	background:url("../Images/aa.jpg");
+	background-size:100%;
+	
+}
+#container {
+    text-align: center;
+    color: azure;
+    margin: 0 auto;
+}
+
+
+nav {
+    background: (0,0,0,0.4);
+    width: 610px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 45px;
+}
+a:link{
+    color: azure;
+	text-decoration: inherit;
+}
+a:visited{
+    color: azure;
+	text-decoration: none;
+}
+a:hover{
+    color: ;
+	text-decoration: underline;
+}
+
+nav li:hover {
+    background: #7BCB6B;
+    color: azure;
+    cursor: pointer;
+}
+img{
+	position: absolute;
+	align-content: center;
+	width: 300px;
+	padding: 25px;
+}
+mem_detail {
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	left: 350px;
+	top: 70px;
+	
+}
